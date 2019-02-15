@@ -1,0 +1,24 @@
+{
+  "name": "persister",
+  "version": "1.0.0",
+  "description": "persist weatherstation data to remote db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitMamut/weather-persister.git"
+  },
+  "author": "Przemek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitMamut/weather-persister/issues"
+  },
+  "homepage": "https://github.com/GitMamut/weather-persister#readme",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "firebase": "^5.8.2"
+  }
+}
